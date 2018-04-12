@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About page</title>
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+
+    /* Create two equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 300px; /* Should be removed. Only for demonstration */
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    </style>
+</head>
+<body>
+    <h1>About us</h1>
+    <div class="row">
+      <div class="column" style="background-color:#aaa;">
+        <h2>Heading 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pulvinar, est at volutpat molestie, nulla lectus volutpat ex, quis egestas massa odio et risus. Donec eu gravida elit, ut rhoncus massa. Nulla ac nunc a massa rutrum elementum. 
+        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed volutpat tellus dolor, ut commodo leo vestibulum quis. </p>
+        <h3>Meet our team</h3>
+        <p>Nunc ultricies vehicula nisi ac ullamcorper. Sed vitae arcu augue. Donec viverra felis vitae pellentesque dapibus. Suspendisse mauris justo, cursus a neque commodo, sodales aliquet mi. Donec varius nisl a mi varius pulvinar.</p>
+        <img src="https://www.nxsports.org/wp-content/uploads/2016/04/team-1024x474.jpg">
+        <p>Nunc ultricies vehicula nisi ac ullamcorper. Sed vitae arcu augue. Donec viverra felis vitae pellentesque dapibus. Suspendisse mauris justo, cursus a neque commodo, sodales aliquet mi. Donec varius nisl a mi varius pulvinar.</p>
+      </div>
+      <div class="column" style="background-color:#bbb;">
+        <h2>Column 2</h2>
+        <p>Some text..</p>
+      </div>
+    </div>
+</body>
+</html>
