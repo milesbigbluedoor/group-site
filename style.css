@@ -95,18 +95,11 @@ background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, F
 	/* BASE 
 	=================== */
 
-	body {
-		margin-bottom: 100px; /*this make the footer not cover up the bottom of the page*/
-	}
-
 	/* LAYOUT
 	=================== */
 
 	footer {
 		font-size: .8em;
-		position: fixed;
-		bottom: 0;
-		left: 0;
 		width: 100%;
 		padding: 10px 0;
 		text-align: center;
