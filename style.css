@@ -179,7 +179,17 @@ background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, F
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
-
+.phone-style{
+    font-size: 20px;
+    margin-top: -150px;
+    margin-bottom: 150px;
+    margin-left: 280px;
+}
+.phone-style a:link{
+    text-decoration: none;
+    color: #000;
+    
+}
 
 
 /* 	
