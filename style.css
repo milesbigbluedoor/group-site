@@ -92,6 +92,35 @@ background: -webkit-linear-gradient(to right, #E1F5C4, #EDE574);  /* Chrome 10-2
 background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
+/* Navigation styles 
+====================*/
+nav {
+	border-radius: .3em;
+	overflow: hidden;
+	margin-bottom: 1.4em;
+	text-align: center;
+	}
+nav li {
+	display: inline-block;
+}
+nav a {
+	color: #4683af;
+	text-decoration: none;
+	padding: 0.65em 1.25em;
+	display: block;
+	font-size: 0.95em;
+	transition: 0.25s;
+}
+nav a:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #4683af;
+}
+nav li:not(:first-of-type) {
+	border-left: 1px solid #cbe5f0;
+}
+
 	/* BASE 
 	=================== */
 
