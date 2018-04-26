@@ -115,6 +115,35 @@ background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, F
 	/* BASE 
 	=================== */
 
+	
+	nav li {
+		float: left; 
+	  }
+	   
+	.img-featured {
+		float: right;
+		margin: 15px 0 15px 15px;
+	  }
+	  
+	  .img-article {
+		float: left;
+		margin-right: 20px;
+	  }
+	  
+	  
+	  .article-content {
+		float: right;
+		width: 78%;
+	  }
+	  
+	  article {
+		overflow: auto;
+	  }
+	  
+	  nav {
+		display: inline-block;
+	  }
+
 	/* LAYOUT
 	=================== */
 
