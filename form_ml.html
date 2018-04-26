@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Debugging Form</title>
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            background: #f0f0f0;
+        }
+        
+        .wrapper {
+            width: 600px;
+            margin: 0 auto;
+        }
+
+        input {
+            width: 100%;
+            height: 30px;
+            margin-bottom: 20px;
+        }
+
+        textarea {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        label {
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        input[type=submit] {
+            width: 150px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Debugging Form:</h1>
+        </header>
+        <form>
+            <label for="device">Device:</label>
+            <input name="device" id="device" type="text">
+    
+            <label for="os">Operating System:</label>
+            <input name="os" id="os" type="text">
+    
+            <label for="browser">Browser:</label>
+            <input name="browser" id="browser" type="text">
+            
+            <label for="expected-results">Expected Results:</label>
+            <textarea name="expected-results" id="expected-results" cols="30" rows="10"></textarea>
+    
+            <label for="actual-results">Actual Results:</label>
+            <textarea name="actual-results" id="expected-results" cols="30" rows="10"></textarea>
+    
+            <label for="actual-results">Additional Comments:</label>
+            <textarea name="actual-results" id="expected-results" cols="30" rows="10"></textarea>
+    
+            <label for="screenshot">Screenshot of Issue:</label>
+            <input type="file" name="screenshot" id="screenshot">
+    
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
