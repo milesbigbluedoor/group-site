@@ -55,6 +55,8 @@ svg:not(:root) {
     overflow: hidden;
 }
 
+
+
 /* Figures
 ========================================================================== */
 figure { margin: 0; }
@@ -113,6 +115,15 @@ background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, F
 		color: #fff;
 		background-color: #1e1e1e;
 	}
+	
+		/* IMAGES
+	=================== */
+	.random-flower{
+		border: 4px solid #fff;
+		max-width: 350px;
+		
+	}
+	
 
 	/* MODULE 
 	=================== */
