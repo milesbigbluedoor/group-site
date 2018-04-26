@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form KN</title>
+</head>
+
+<body>
+    <form style="margin:5px; font-weight:bold">
+        <label for="description">Please describe your issue:</label>
+        <br>
+        <textarea rows="4" cols="50"></textarea>
+        <br>
+        <br>
+        <label for="url">link:</label>   
+        <br>
+        <input id="url" type="url">
+        <br>
+        <br>
+        <label for="device">What device were you using?</label>
+        <br>
+        <input id="device" type="radio" value="desk" checked> Desktop<br>
+        <input id="device" type="radio" value="tablet"> Tablet<br>
+        <input id="device" type="radio" value="mobile"> Mobile
+        <br>
+        <br>
+        <label for="os">Operating System:</label>
+        <br>
+        <input id="os" type="text">
+        <br>
+        <br>
+        <label for="browser">What browser did you use? (and version)</label>
+        <br>
+        <input id="browser" type="text">
+        <br>
+        <br>
+        <label for="screenShot">Please attach a screenshot</label>
+        <br>
+        <input id="screenShot" type="file">
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+      </form>
+</body>
+
+</html>
