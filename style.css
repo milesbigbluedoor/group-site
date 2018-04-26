@@ -55,6 +55,8 @@ svg:not(:root) {
     overflow: hidden;
 }
 
+
+
 /* Figures
 ========================================================================== */
 figure { margin: 0; }
@@ -136,6 +138,15 @@ nav li:not(:first-of-type) {
 		color: #fff;
 		background-color: #1e1e1e;
 	}
+	
+		/* IMAGES
+	=================== */
+	.random-flower{
+		border: 4px solid #fff;
+		max-width: 350px;
+		
+	}
+	
 
 	/* MODULE 
 	=================== */
