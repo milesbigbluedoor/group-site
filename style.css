@@ -86,66 +86,34 @@ table { border-collapse: collapse; border-spacing: 0; }
 =============================================================================
 */
 
-// 	Less Library
-// ---------------------------------------------------
-	@import "lib.less";
-
-//  Local Functions
-// ---------------------------------------------------
-
-// 	Colors
-// ---------------------------------------------------
-	// Greys
-
 body{
 background: #EDE574;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #E1F5C4, #EDE574);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-	
-// 	Fonts
-// --------------------------------------------------- 
-	@ff1: Helvetica, Arial, sans-serif;
-
-
-// 	Styles
-// --------------------------------------------------- 
-
 	/* BASE 
 	=================== */
 
-	
-	nav li {
-		float: left; 
-	  }
-	   
-	.img-featured {
-		float: right;
-		margin: 15px 0 15px 15px;
-	  }
-	  
-	  .img-article {
-		float: left;
-		margin-right: 20px;
-	  }
-	  
-	  
-	  .article-content {
-		float: right;
-		width: 78%;
-	  }
-	  
-	  article {
-		overflow: auto;
-	  }
-	  
-	  nav {
-		display: inline-block;
-	  }
+	body {
+		margin-bottom: 100px; /*this make the footer not cover up the bottom of the page*/
+	}
+
 
 	/* LAYOUT
 	=================== */
+
+	footer {
+		font-size: .8em;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		padding: 10px 0;
+		text-align: center;
+		color: #fff;
+		background-color: #1e1e1e;
+	}
 
 	/* MODULE 
 	=================== */
