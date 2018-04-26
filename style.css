@@ -124,19 +124,12 @@ nav li:not(:first-of-type) {
 	/* BASE 
 	=================== */
 
-	body {
-		margin-bottom: 100px; /*this make the footer not cover up the bottom of the page*/
-	}
-
 
 	/* LAYOUT
 	=================== */
 
 	footer {
 		font-size: .8em;
-		position: fixed;
-		bottom: 0;
-		left: 0;
 		width: 100%;
 		padding: 10px 0;
 		text-align: center;
@@ -231,4 +224,21 @@ nav li:not(:first-of-type) {
 	@page { margin: 0.5cm; }
 	p, h2, h3 { orphans: 3; widows: 3; }
 	h2, h3{ page-break-after: avoid; }
+}
+
+
+/* Page styles */
+
+/* All pages */
+body {
+    padding: 10px;
+    font-family: "Arial";
+}
+h3 {
+    color: #FFD700;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
